@@ -1,6 +1,6 @@
 # Flowers GAN
 
-Training a [DCGAN](https://arxiv.org/abs/1511.06434) to resemble [tf_flowers](https://www.tensorflow.org/datasets/catalog/tf_flowers) dataset. It is an implementation of the architecture that is used in [Matlab help](https://www.mathworks.com/help/deeplearning/ug/train-generative-adversarial-network.html) in TensorFlow. It is based on the DCGAN implementation tutorial on [Tensorflow website](https://www.tensorflow.org/tutorials/generative/dcgan).
+Training a [DCGAN](https://arxiv.org/abs/1511.06434) to resemble [tf_flowers](https://www.tensorflow.org/datasets/catalog/tf_flowers) dataset. It is an implementation of the architecture that is used in [Matlab help](https://www.mathworks.com/help/deeplearning/ug/train-generative-adversarial-network.html) in TensorFlow. It is based on the DCGAN implementation tutorial on [TensorFlow website](https://www.tensorflow.org/tutorials/generative/dcgan).
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/radinshayanfar/gan-tf-flowers/blob/master/dcgan.ipynb)
 
@@ -108,7 +108,7 @@ Out [2]: Model: "sequential"
 
 ## Training & Inferencing
 
-Training the models on Google Colab using the notebook is straightforward. You can also use TensorBoard to monitor generator and discriminator balance during training. The following image shows the network in balance (check [here](https://www.mathworks.com/help/deeplearning/ug/monitor-gan-training-progress-and-identify-common-failure-modes.html) for more details and examples).
+Training the models in Google Colab using the notebook is straightforward. You can also use TensorBoard to monitor generator and discriminator balance during training. The following image shows the network in balance (check [here](https://www.mathworks.com/help/deeplearning/ug/monitor-gan-training-progress-and-identify-common-failure-modes.html) for more details and examples).
 
 ![TensorBoard showing gen and disc scores during training](./images/tensorboard.png)
 
